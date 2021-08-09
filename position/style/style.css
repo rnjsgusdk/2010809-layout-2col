@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+/* reset 시작 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #111;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(46, 78, 46);
+}
+
+ul {
+  list-style: none;
+}
+
+/* reset 끝 */
+
+/* div#warp 시작 */
+div#warp {
+  width: 580px;
+  margin: 0 auto;
+  border: 1px solid #999;
+}
+/* div#warp 끝 */
+
+/* header#header 시작 */
+header#header {
+  padding: 6px;
+  background-color: #012219;
+}
+
+#header h1 {
+  color: #a4b937;
+  font-size: 28px;
+  text-align: center;
+  transform: scaleX(0.97);
+}
+
+#header h1 span :first-child {
+  color: #e2e3a6;
+  font-size: 70px;
+}
+
+#header h1 span :nth-child(2) {
+  font-size: 38px;
+}
+
+#header h1 span :last-child {
+  color: #a1a994;
+  font-size: 52px;
+}
+/* header#header 끝 */
+
+/* main#main 시작 */
+
+main#main {
+  height: 464px;
+
+  /* footer영역 위치 지정을 위해 사용함 */
+
+  position: relative;
+}
+
+/* nav#gnb 시작 */
+nav#gnb {
+  width: 140px;
+  height: 464px;
+  padding: 16px;
+  background-color: #a4b39c;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#dnb li {
+  line-height: 26px;
+}
+/* nav#gnb 끝 */
+
+/* div#contets 시작 */
+
+/* 적용 1 시작*/
+/* 
+div#contents {
+  margin-left: 140px;
+} */
+
+/* 적용 1 끝*/
+
+/* 적용 2 시작*/
+div#contents {
+  width: 438px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* 적용 2 끝*/
+
+div#contets h2 {
+  color: #bfb42f;
+  font-size: 23px;
+  font-family: 궁서체;
+  font-weight: normal;
+  padding: 8px;
+  padding-left: 20px;
+  background-color: #501903;
+}
+
+div#contets p {
+  text-align: justify;
+  padding: 16px;
+}
+/* div#contets 끝 */
+
+/* main#main 끝*/
+
+/* footer#footer 시작 */
+footer#footer {
+  font-size: 14px;
+  padding: 16px;
+  background-color: #889780;
+
+  clear: both;
+}
+/* footer#footer 끝 */
